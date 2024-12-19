@@ -13,7 +13,7 @@
 # limitations under the License.
 """Tests for transformer."""
 from absl.testing import parameterized
-from robotics_transformer import transformer
+import transformer #from robotics_transformer 
 import tensorflow as tf
 
 

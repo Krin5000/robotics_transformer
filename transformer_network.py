@@ -17,10 +17,10 @@ from typing import Optional, Tuple, Union, Any
 from absl import logging
 import numpy as np
 
-from robotics_transformer import transformer
-from robotics_transformer.film_efficientnet import preprocessors
-from robotics_transformer.tokenizers import action_tokenizer
-from robotics_transformer.tokenizers import image_tokenizer
+import transformer #from robotics_transformer 
+from film_efficientnet import preprocessors #robotics_transformer.
+from tokenizers import action_tokenizer #robotics_transformer.
+from tokenizers import image_tokenizer #robotics_transformer.
 
 from tensor2robot.utils import tensorspec_utils
 import tensorflow as tf
